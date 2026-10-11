@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color:#0D0D0D;
+}
+
+header {
+    position:relative;
+    height: 70px;
+}
+
+.logo-chat {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.logo {
+    position: absolute;
+    left: 12px;
+    top: 16px;
+
+    color: #0D0D0D;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav {
+    position: absolute;
+    top: 18px;
+    left: 40%;
+
+}
+
+nav a {
+    color: #5D5D5D;
+    font-size: 14px;
+    margin-right: 12px;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.start-box {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+.login {
+    display: inline-block;
+    background-color: #0D0D0D;
+    color: white;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.signup {
+    display: inline-block;
+    color: #5D5D5D;
+    text-decoration: none;
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.help {
+    width: 36px;
+    height: 36px;
+    margin-left: 6px;
+    border: 1px solid #EAEAEA;
+    border-radius: 50%;
+    background-color: white;
+    color: #5D5D5D;
+}
+
+.big-box {
+    position: relative;
+    height: 120px;
+    padding: 14px 15px;
+    border-radius: 24px;
+    border: 1px solid #0D0D0D;
+}
+
+main {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 330px;
+}
+
+h1 {
+   text-align: center;
+}
+
+.actions-butt {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+}
+
+.big-box input {
+    border: none;
+    font-size: 16px;
+}
+
+.actions-butt button {
+    border: 1px solid #EAEAEA;
+    background-color: white;
+    color:#5D5D5D;
+    border-radius: 18px;
+    padding: 7px 12px;
+    margin-right: 5px;
+}
+
+.voice-button {
+    position: absolute;
+    right: 0;
+    background-color: #5D5D5D;
+}
+
+.actions-butt .voice-button {
+    background-color: #ECECEC;
+    color: #5D5D5D;
+}
